@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu segundo diário</title>
+    <link rel="stylesheet" href="diario_matematica.css">
+</head>
+<body>
+    <header style="box-shadow: 0px 2px 4px black;">
+        <h1>Meu segundo diário de Matemática Discreta e Lógica Matemática</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introdução</h2>
+            <p>Este é o meu segundo diário de Matemática Discreta e Lógica Matemática. Esta é uma atividade proposta pelo meu professor;
+                meu primeiro diário foi feito num bloco de notas, mas não gostei para ser sincero. Então, estou fazendo em HTML e CSS para 
+                deixá-lo mais bonito. <a href="https://www.geogebra.org/calculator" target="_blank">Aqui está o link do geogebra.</a></p>
+        </section>
+        <section>
+                <h2>Setembro, sexta-feira 13</h2>
+                <p>O professor deu início a um novo assunto, que se chama relações, mas isso não tem nada a ver com casamento ou coisa do 
+                gênero. Explicou sobre par ordenado, sobre produto cartesiano, sobre relação binária e sobre relação inversa. Vamos fazer 
+                igual Jack Estripador: vamos por partes!</p>
+            <div>
+                <h3>Par ordenado</h3>
+                <p>Par ordenado é um par de objetos matemáticos cuja ordem de ocorrência desses objetos é signficante. Isso quer dizer, por
+                    exemplo, que um ponto qualquer no plano cartesiano (x, y) é diferente de (y, x). Nesse caso, se x = 2 e y = 3, o ponto
+                    (2, 3) é diferente de (3, 2). Além desse exemplo, o conjunto solução de um sistema linear com 2 icógnitas é
+                    também um par ordenado.</p>
+            </div>
+            <div>
+                <h3>Produto cartesiano</h3>
+                <p>Produto cartesiano é o conjunto de todos os pares ordenados dados dois conjuntos quaisquer (A e B), em que o primeiro termo 
+                pertence a A, e o segundo pertence a B. Em termos matemáticos, A x B = {(x, y)|x ∈ A e y ∈ B}. Exemplo: A = {3, 1} e B = {2, 7},
+                A x B = {(3, 2); (3, 7); (1, 2); (1, 7)}. Detalhe: a quantidade de elementos de um produto cartesiano é igual ao produto 
+                da quantidade de elementos de A com a quantidade de elementos de B devido ao princípio fundamental da contagem (QA x QB = QC, em 
+                que Q = quantidade). </p>
+            </div>
+            <div>
+                <h3>Relação binária</h3>
+                <p>Relação binária é uma relação entre dois conjuntos (A e B) e é um subconjunto do produto cartesiano entre A e B, em que há uma
+                    regra estabelecida que define essa relação. Em termos matématicos: R = {(x, y) ∈ A x B|[aqui onde se estabelece uma regra]}.
+                    Exemplo: Se A = {1, 2, 3, 4, 5} e B = {1, 2, 3, 4}, quais os elementos da relação R = {(x, y) ∈ A x B|x < y}? R = {(1, 2); (1, 3); 
+                    (1, 4); (2, 3); (2, 4); (3, 4)}.</p>
+            </div>
+            <div>
+                <h3>Relação inversa</h3>
+                <p>Relação inversa é definida por R = {(y, x) ∈ B x A|[regra]}, para ser determinada, basta calcular a relação binária e inverter
+                    a ordem dos elementos que compõem os pares ordenados. Exemplo: Qual é a relação inversa de A e B no exemplo anterior? 
+                    R = {(2, 1); (3, 1); (4, 1); (3, 2); (4, 2); (4, 3)}.</p>
+            </div>
+            <div>
+                <h3>Presente</h3>
+                <p>Aqui está um vídeo do canal Matemática Rio sobre o assunto: <a href="https://www.youtube.com/watch?v=M5Bj6q18RHI" target="_blank">clique aqui</a>
+                O professor disse também que vai me dar um presente por ter tirado a maior nota na prova. Eu fico lisonjeado com isso.</p>
+            </div>
+            </section>
+            <section>
+                <h2>Setembro, sexta-feira 20</h2>
+                <p>O professor explicou o conteúdo e a avaliação 2. Primeiramente, falarei sobre o conteúdo. Ele introduziu as funções,
+                    apresentou as funções númericas e a função do primeiro grau.</p>
+                <div>
+                    <h3>Introdução a funções</h3>
+                    <p>Definição de função: dados dois conjuntos não vazios A e B, uma relação binária que associa a cada elemento x ∈ A um único elemento y ∈ B recebe
+                        o nome de função de A em B.
+                    </p>
+                    <p>* f é aplicação de A em B se, e somente se, (∀x ∈ A, ∃y ∈ B|(x, y) ∈ f) (Para todo x que pertence a A, existe pelo menos um y que pertence a B, 
+                        tal que (x, y) pertence a f).</p>
+                    <h4 style="font-family: cursive; font-size: 20px;">Condições</h4>
+                    <ol>
+                        <li style="font-family: cursive; font-size: 20px;">É necessário que todo elemento x ∈ A participe de pelo menos um par (x, y) ∈ f, isto é, 
+                                todo elemento de A "deve servir como ponto de partida da flecha".
+                        </li>
+                        <li style="font-family: cursive; font-size: 20px;">É necessário que cada elemento x ∈ A participe de apenas um único par (x, y) ∈ f, isto é,
+                            cada elemento de A "deve servir como ponto de uma única flecha".
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Explicando com as próprias palavras</h3>
+                    <p>Imagine dois conjuntos, A e B, e dois pares ordenados, x e y, em que x pertence a A e y pertence a B, para ser considerado função é necessário
+                        que o mesmo x não pode dar dois valores de y. Por exemplo, A = {0, 1} e B = {1,4}, A x B = {(0, 1); (0, 4); (1, 1); (1, 4)}; o produto 
+                        cartesiano não é função porque, se você olhar os pares ordenados dele, perceberá que o mesmo zero dá resultados diferentes (o zero de x dá um como
+                        resultado de y e também quatro, e o um de x dá um como resultado de y e também quatro), ou seja, o x não pode se repetir em qualquer par ordenado. </p>
+                    <p>Entretanto, se A = {1, 2, 3}, B = {3, 5, 7} e C = {(x, y) ∈ A x B|y = 2x + 1}, C = {(1, 3); (2, 5); (3, 7)}. Repare que o conjunto C é uma relação 
+                        binária que respeita a regra no parágrafo acima, pois o x não se repete.</p>
+                    <p>Outra coisa que vale salientar é que todos os elementos de A devem ser usados, mas nem todos os elementos de B precisam ser usados (pelo menos um deve).
+                        Aqui está um video que deve explicar melhor: <a href="https://www.youtube.com/watch?v=_BLoeOJemOs&list=PL83s8LGM84J6Ew0fa1Ue2YZlNEqRXCBQo&index=15" target="_blank">vídeo.</a>
+                        Nele, o professor Rafael exemplifica o assunto, muito melhor do que ficar só na definição.</p>
+                </div>
+                <div>
+                    <h3>Funções númericas</h3>
+                    <p>Funções numéricas são relações matemáticas que associam elementos de dois conjuntos. Em termos simples, uma função pega um valor de um 
+                        conjunto (chamado de domínio) e o relaciona a um único valor de outro conjunto (chamado de contradomínio). A notação comum para uma função
+                         é ( f: A \seta para direita B ), onde cada elemento ( x ) do conjunto ( A ) é mapeado para um elemento ( y ) do conjunto ( B ) através da 
+                         função( f ), que é basicamente o que eu tinha explicado, com uma única diferença: é preciso uma lei de formação, e y = f(x).</p>
+                </div>
+                <div>
+                    <h3>Função do primeiro grau</h3>
+                    <p>A função do primeiro grau, também conhecida como função afim, é uma função númerica que pode ser expressa na forma y = ax + b, onde a e 
+                        b são números reais e a ≠ 0. Esta função é representada graficamente por uma reta.</p>
+                    <ul>Características Principais:
+                        <li>Coeficiente Angular (a): Define a inclinação da reta. Se a > 0, a função é crescente; se a < 0, a função é decrescente.</li>
+                        <li>Coeficiente Linear (b): Indica o ponto onde a reta intercepta o eixo \(y\).</li>
+                    </ul>
+                    <ol>Exemplos:
+                        <li>y = 2x + 3 (Função crescente)</li>
+                        <li>y = -x + 5 (Função decrescente)</li>
+                    </ol>
+                    <article class="nenhuma">
+                        <p>Gráfico: o gráfico de uma função do primeiro grau é sempre uma linha reta. A inclinação e a posição da reta dependem dos valores de a e b.
+                        <a href="Captura de tela 2024-09-29 175205.png" target="_blank">Ver imagem mais detalhada.</a></p>
+                    <a href="https://www.youtube.com/watch?v=9yH6zCAgHmw&list=PL83s8LGM84J4zTKfb1_PtIOcykkCsy2dC&index=1" target="_blank" style="font-size: 20px;">Vídeo</a>
+                    <img src="funcao_afim.png" alt="gráfico_função_afim"></article>
+                </div>
+                <div>
+                    <h3>Avaliação 2</h3>
+                    <p>A avaliação 2 funcionará da seguinte forma: ele vai passar um trabalho em grupo, metade da nota num relatório escrito e outra metade num 
+                    trabalho oral que é na verdade um vídeo. No entanto, ele entende que nem todo mundo consegue trabalhar em equipe, então ele deu uma opção
+                    para esses: substituir a nota da segunda avaliação pela média artimética da primeira com a terceira. </p>
+                    <p>Eu gostei da opção 2 porque eu só consigo trabalhar sozinho, essa é ótima tanto para mim quanto para o professor, já que, com essa opção,
+                    serão poucas as equipes que irão participar, assim menos trabalho para corrigir. Esse provavelmente vai ser o melhor professor com quem
+                    eu vou ter que lidar durante a faculdade (só acho que ele podia simpiflicar isso tudo passando apenas prova).</p>
+                </div>
+            </section>
+            <section>
+                <h2>Setembro, Sexta-feira 27</h2>
+                <p>Na aula de hoje, ele resolveu um exercício do livro além de abordar casos específicos da função do primeiro grau e o estudo do sinal da função.</p>
+                <div>
+                    <h3>Caso 1: Função constante</h3>
+                    <p>Se a de y = ax + b = 0 é igual a 0, y = b. Nesse caso, a função será constante, isto é, o valor de y nunca irá mudar e sempre será 
+                        igual ao coeficiente linear. Faz sentido, já que a é o coeficiente angular que determina a inclinação da reta em relação ao eixo x; se ele for
+                        igual a 0, a reta, no plano cartesiano, é horizontal. <a href="Captura de tela 2024-09-29 152852.png" target="_blank">Ver imagem mais detalhada.</a>
+                    </p>
+                    <article class="nenhuma">
+                        <img src="funcao_constante.png" alt="gráfico_função_constante">
+                    </article>
+                </div>
+                <div>
+                    <h3>Caso 2: Função identidade</h3>
+                    <p>Numa função identidade, o coeficiente angular é sempre igual a 1, e o coeficiente angular é igual a 0. Isso significa que para cada unidade que 
+                        você se move ao longo do eixo x , você se move exatamente uma unidade ao longo do eixo y. Matematicamente, a função identidade é representada 
+                        por y = x , onde o coeficiente angular é o número que multiplica x, que neste caso é 1. <a href="Captura de tela 2024-09-29 155706.png" target="_blank">
+                        Ver imagem mais detalhada.</a></p>
+                    <article class="nenhuma">
+                        <img src="funcao_identidade.png" alt="gráfico_função_identidade">
+                    </article>
+                </div>
+                <div>
+                    <h3>Caso 3: Função linear</h3>
+                    <p>Quando o coeficiente angular é diferente de 0, e o coeficiente linear é igual a 0, chamamos essa função de função linear.<a href="Captura de tela 2024-09-29 161810.png" target="_blank">
+                        Ver imagem mais detalhada.</a>Exemplos de funções lineares: y = 2x (função dos números pares); y = -x; y = 10x;</p>
+                    <article class="nenhuma">
+                        <img src="funcao_linear.png" alt="gráfico_função_linear">
+                    </article>
+                </div>
+                <div>
+                    <h3>Estudo do sinal</h3>
+                    <ol>O estudo do sinal da função do primeiro grau, também conhecida como função afim, é uma análise importante para entender onde a função é 
+                        positiva, negativa ou nula. Vamos considerar uma função do tipo y = ax + b , onde a e b são números reais e a diferente de 0.</p>                    
+                        <li>Primeiro, calcule a raiz da função quando y = 0. ax + b = 0 -> ax = 0 - b = -b -> x = -b/a;
+                        <li>Segundo, se a função é crescente (a > 0), y será positivo (y > 0) se x > -b/a, y será negativo (y < 0) se x < -b/a e y = 0 se x = -b/a;
+                        <li>Terceiro, se a função é decrescente (a < 0), y será positivo se x < -b/a, y será negativo se x > -b/a e y = 0 se x = -b/a.
+                    </ol>
+                    <p>Vídeos:</p>
+                    <p><a href="https://www.youtube.com/watch?v=bLz31ohOpxk&list=PL83s8LGM84J6Ew0fa1Ue2YZlNEqRXCBQo&index=32" target="_blank">Estudo do sinal da função afim</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=567sWGTnf5Q" target="_blank">Casos particulares</a></p>
+                </div>
+                <div>
+                    <h3>O ninja que copia</h3>
+                    <p>O professor finalmente me deu o presente! Não demonstrei muita emoção quando ele me presenteou, mas saiba que eu fiquei muito feliz e agradecido pelo 
+                        presente.É um chaveiro com um bonequinho do kakashi e é muito lindo! Que professor incrível.</p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Outubro, sexta-feira 4</h2>
+                    <p>Esta é a última aula, como sou bom em matemática, não tive nenhum problema com essa disciplina. No entanto, não posso dizer o mesmo para outras disciplinas.
+                        Meu medo é repetir  o semestre, e receio que isso possa ser realidade. Claro que eu sou totalmente responsável por essa minha situação, mas não posso dizer 
+                        que é 100% culpa minha. De qualquer forma, próximo semestre, seja o primeiro ou o segundo, não permitirei que isso aconteça de novo. Só acho paia ter que passar 
+                        por tudo isso mais uma vez.</p>
+                    <p>Dia 11 vai ter a última prova para encerrar a disciplina. Meu professor é um excelente professor, e temo que não haverá muitos iguais a ele durante o curso
+                        (eu mesmo já lidei com um que facilmente poderia ser um vilão de anime na vida real, mas não citarei nomes; a propósito, fica aí a ideia).
+                        Eu realmente gosto do curso, porém os professores (não todos) podem me desanimar, eu fico capisbaixo com isso.</p>
+                </div>
+                <div>
+                    <h3>Função do 2º grau</h3>
+                    <p>Deixando o desabafo de lado, a função do segundo grau foi o assunto de hoje. Ela não foi estudada com muitos detalhes, só o que a gente normalmente estuda
+                        no Ensino Médio, que são a raiz da função, as coordenadas do vértice e o esboço do gráfico.
+                    </p>
+                </div>
+                <div>
+                    <h3>Raiz da função</h3>
+                    <p>A função do 2º grau, também chamada de função quadrática, possui a seguinte lei de formação: ax² + bx + c = 0, em que a é o coeficiente angular, ele 
+                    determina a concavidade da parábola (se é maior que zero, a concavidade é voltada para cima; se é menor que zero, a concavidade é voltada para baixo), b 
+                    é o coeficiente linear, ele influencia a inclinação da parábola que a função quadrática desenha no plano, e o c é o termo indepedente, é onde a parábola intercepta 
+                    o eixo y no plano cartesiano. A fórmula que fornece o valor de x quando y é igual a zero é:</p>
+                    <article style="display: flexbox;">x =</article><article style="text-decoration: underline;">-b ± √Δ</article>
+                    <article>2a</article>
+                    <p>Em que:</p>
+                    <article>Δ = b² - 4ac</article>
+                    <ul>Delta (Δ) tem relação direta com as raízes da função:
+                        <li>Se Δ > 0, a função possui 2 raízes pertencentes ao conjunto dos números reais. <a href="Captura de tela 2024-10-12 125040.png" target="_blank">Ver imagem mais detalhada</a></li>
+                        <article><img src="delta_maior_zero.png" alt="parábola intercepta o eixo x em dois valores diferentes"></article>
+                        <li>Se Δ = 0, a função possui apenas 1 raiz pertencente ao conjunto dos números reais. <a href="Captura de tela 2024-10-12 125423.png" target="_blank">Ver imagem mais detalhada</a></li>
+                        <article><img src="Delta_igual_zero.png" alt="parábola interceptao eixo x em apenas um valor"></article>
+                        <li>Se Δ < 0, a função não possui raizes reais. <a href="Captura de tela 2024-10-12 125448.png" target="_blank">Ver imagem mais detalhada</a></li>
+                        <article><img src="Delta_negativo.png" alt="parábola não intercepta o eixo x"></article>
+                    </ul>
+                    <p>Se a > 0: <a href="Captura de tela 2024-10-12 125727.png" target="_blank">Ver imagem mais detalhada</a></p>
+                    <article><img src="a_maior_zero.png" alt="concavidade para baixo"></article>
+                    <p>Se a < 0:<a href="Captura de tela 2024-10-12 125633.png" target="_blank">Ver imagem mais detalhada</a></p>
+                    <article><img src="a_menor_zero.png" alt="concavidade para baixo"></article>
+                    <p>Exemplo: Qual é a raiz da função x² + 2x = 0 ? Resposta: Observando a imagem correspondente, percebe-se que a função intercepta o eixo x nos pontos (x=0, y=0) e (x=-2, x=0) e, analisando
+                        esses pontos, conclui-se que as raízes da função é 0 e -2. No entanto, nem sempre se tem acesso ao gráfico da função, então é aí que entra fórumla:
+                    </p>
+                    <p>x' = -b + √(b² - 4ac) / 2a -> x' = -2 + √(2² - 4 × 1 × 0) / 2 × 1 -> x' = -2 + √(4 - 0) / 2 -> x' = -2 + 2 / 2 -> x' = 0 / 2 -> x' = 0</p>
+                    <p>x" = -b - √(b² - 4ac) / 2a -> x" = -2 - √(2² - 4 × 1 × 0) / 2 × 1 -> x" = -2 - √(4 - 0) / 2 -> x" = -2 - 2 / 2 -> x" = -4 / 2 -> x" = -2</p>
+                </div>      
+                <div>
+                    <h3>Coordenadas do vértice</h3>
+                    <p>Vértice é o ponto mínimo ou máximo da função, representa o valor mais baixo de y se a > 0 e representa o valor mais alto de y se a < 0. As fórmulas que 
+                        fornecem as coordenadas são as seguinte:</p>
+                        <article style="display: flexbox;">x<sub>v</sub> =</article><article style="text-decoration: underline;">-b</article>
+                    <article>2a</article>
+                    <article style="display: flexbox;">y<sub>v</sub> =</article><article style="text-decoration: underline;">-Δ</article>
+                    <article>4a</article>
+                    <p>Exemplo: Qual são as coordenadas do vértice na função y = x² + 2x ? Resposta: Se você observar a imagem correspondente, verá que as coordenadas do vértice são 
+                        x<sub>v</sub> = -1 e y<sub>v</sub> = -1. Porém, se você não tiver acesso ao gráfico da função, você tem que utilizar as fórmulas citadas:
+                        <p>x<sub>v</sub> = -b / 2a -> x<sub>v</sub> = -2 / 2 × 1 -> x<sub>v</sub> = -2 / 2 -> x<sub>v</sub> = -1</p>
+                        <p>y<sub>v</sub> = -Δ / 4a -> y<sub>v</sub> = -(b² - 4ac) / 4a -> y<sub>v</sub> = -(2² - 4 × 1 × 0) / 4 × 1 -> y<sub>v</sub> = -4 / 4 -> y<sub>v</sub> = -1</p>
+                    </p>
+                </div> 
+                <div>
+                    <h3>Esboço do gráfico e vídeos</h3>
+                    <p>O esboço do gráfico está nas imagens que você acabou de ver. Durante a prova, claro que não dá para usar o Geogebra, por isso que é fundamental que o aluno
+                        saiba esboçar o gráfico corretamente, sem o uso de softwares que fazem isso. 
+                    </p>
+                    <p><a href="https://www.youtube.com/watch?v=XCjEZcjyJ4w" target="_blank">Função do Segundo Grau ou Função Quadrática - Introdução Detalhada</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=VRfOc4UtH64" target="_blank">Raízes da Função do Segundo Grau pela Fórmula de Bhaskara</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=DNj1b_dUHs4" target="_blank">Quantidade de Raízes Reais da Função do Segundo Grau</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=hNeeWTjvB-Y" target="_blank">Coordenadas do Vértice da Parábola</a></p>
+                </div>
+                <div>
+                    <h3>Fim</h3>
+                    <p>Este é o fim do semestre. Apesar dos apesares que eu tive que passar durante o curso, até que foi divertido fazer algumas coisas, fazer este diário, criar algoritmos
+                    em Python, como o gráfico de valores e o sistema de votação, aprender Matemática sempre é divertido para mim. Não vou mentir, estou com um pouco de medo, vamos ver o que 
+                    vai acontecer daqui para frente. Obrigado, professor, você é uma boa pessoa e um bom professor. Continue assim.</p>
+                </div>
+            </section>
+    </main>
+</body>
+<footer>
+    2024 - Todos os direitos reservados
+</footer>
+</html>

@@ -1,0 +1,105 @@
+:root {
+    --familia-fonte: serif;
+    --texto-alinhado: center;
+    --sombra-texto: 2px 2px 2px black;
+}
+h1 {
+    font-family: var(--familia-fonte);
+    text-align: center;
+    text-shadow: var(--sombra-texto);
+}
+h2 {
+    box-shadow: 0px 2px 4px black;
+    font-family: var(--familia-fonte);
+    border-radius: 8px;
+    padding: 8px;
+    color: #E18E17;
+    background-color:#166094 ;
+    text-align: var(--texto-alinhado);
+    text-shadow: var(--sombra-texto);
+}
+h3 {
+    font-family: var(--familia-fonte);
+    box-shadow: 0px 2px 4px black;
+    border-radius: 8px;
+    padding: 8px;
+    color: #E0681B;
+    background-color:#1BE061 ;
+    text-align: var(--texto-alinhado);
+    text-shadow: var(--sombra-texto);
+}
+body {
+    max-width: 1229px;
+    margin: auto;
+    background-image: url('00024.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #31668B;
+}
+header {
+    margin: -8px;
+    margin-right: -7px;
+    margin-left: -7px;
+    background-image: linear-gradient(to bottom, #0485E0, #31668B);
+    color: #E18E17;
+    padding: 8px;
+    max-width: 100%;
+}
+p {
+    font-family: cursive;
+    font-size: 20px;
+    text-indent: 20px;
+}
+pre {
+    font-family: cursive;
+    font-size: 20px;
+}
+section {
+    background-color: #DDDDDD;
+    box-shadow: 0px 2px 4px black;
+    border-radius: 8px;
+}
+div {
+    background-color: #DDDDEF;
+    box-shadow: 0px 2px 4px black;
+    border-radius: 8px;    
+}
+footer {
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    color: #E18E17;
+    padding: 16px;
+    background-color: #166094;
+    text-shadow: var(--sombra-texto);
+    background-image: linear-gradient(to bottom, #0485E0, #31668B);
+    max-width: 100%;
+}
+ul {
+    font-size: 20px;
+    font-family: cursive;
+}
+li {
+    font-size: 20px;
+    font-family: cursive;
+}
+ol {
+    font-size: 20px;
+    font-family: cursive;
+}
+.nenhuma {
+    text-align: var(--texto-alinhado);
+}
+img {
+    max-width: 95%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+article {
+    text-align: center; 
+    font-family: monospace;
+    font-size: 24px;
+}
